@@ -20,7 +20,7 @@ function Login() {
               navigate('/dashboard')
           }
         } catch (error) {
-          document.getElementById("error").innerHTML = "UIser does not Exists or Invalid Password"
+          document.getElementById("error").innerHTML = "User does not Exists or Invalid Password"
           console.log(error.response)
         }
       }
